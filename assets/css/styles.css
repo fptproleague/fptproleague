@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=134125), auto;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+html {
+    font-family: Comic Sans, Comic Sans MS, cursive;
+    scroll-behavior: smooth;
+}
+
+.clear {
+    clear: both;
+}
+
+/* #main {
+
+} */
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: black;
+    z-index: 1;
+    /* border-bottom: 2px solid black; */
+}
+
+#nav {
+    display: inline-block;
+    position: relative;
+    float: right;
+}
+
+/* .nyan-img {
+    width: 78px;
+    float: right;
+    margin: -55px 260px 0 0;
+} */
+
+.logo-img {
+    width: 120px;
+    margin: -25px 0 0 -14px;
+}
+
+.logo-img:hover {
+    cursor: url(https://cur.cursors-4u.net/games/gam-14/gam1339.cur), auto;
+}
+
+
+#nav li {
+    display: inline-block;       
+    float: left;
+}
+
+#nav li a {
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    padding: 0 24px;
+    display: inline-block;
+}
+
+#nav li:hover a {
+    background-color: rgb(237, 85, 85);
+    color: white;
+    cursor: url(https://cur.cursors-4u.net/games/gam-14/gam1339.cur), auto;
+}
+
+#slider {
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url('https://lolstatic-a.akamaihd.net/frontpage/apps/prod/rg-league-display-2017/en_US/cb24025fade09e3f965776440dffcc65024d3266/assets/img/content/splash/content-original-championillustrations-group-slashes.jpg') top center / cover no-repeat;
+    position: relative;
+}
+
+#slider .text-content {
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    bottom: 290px;
+    left: 0;
+    right: 0;
+    text-shadow: 0 0 10px black;
+    animation: transitionIn 1s;
+}
+
+#slider .text-title {
+   font-size: 60px;
+   
+}
+
+#slider .text-description {
+   color: rgb(245, 225, 6);
+   font-size: 22px;
+}
+
+/* #content {
+
+} */
+
+#content .members-list {
+    margin-top: 48px;
+}
+
+#content .member-item {
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin-bottom: 78px;
+}
+
+#content .member-img {
+    width: 154px;
+    margin-top: 15px;
+}
+
+#content .member-name {
+    font-size: 15px;
+
+}
+
+#content .content-section {
+    width: 800px;
+    padding: 82px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content .section-heading {
+    text-align: center;
+}
+
+#content .section-mail {
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+.tournament-section {
+    background-image: linear-gradient(to right, #c31432, #240b36);
+    height: 650px;
+}
+
+/* .places-list {
+
+} */
+
+.place-item {
+    margin-top: 32px;
+    border: 10px;
+}
+
+.place-img {
+    width: 410px;
+    height: 400px;
+}
+
+.place-img:hover {
+    opacity: 0.75;
+}
+
+.place-body {
+    background-color: #fff;
+    float: right;
+    display: block;
+    padding: 44px 33px 85px 70px;
+}
+
+.place-heading {
+    font-size: 26px;
+    margin-top:15px;
+}
+
+.place-time {
+    color: #333;
+    font-size: 20px;
+    margin: 20px 5px 110px 4px;
+    padding-right: 30px;
+}
+
+/* .place-desc {
+
+} */
+
+span{
+    position: relative;
+    display: inline-flex;
+    width: 180px;
+    height: 55px;
+    margin: 0 38px;
+    perspective: 1000px;
+  }
+  span a{
+    font-size: 19px;
+    letter-spacing: 1px;
+    transform-style: preserve-3d;
+    transform: translateZ(-25px);
+    transition: transform .25s;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+  span a:before,
+  span a:after{
+    position: absolute;
+    content: "Join now";
+    height: 55px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  span a:before{
+    color: #fff;
+    background: #000;
+    transform: rotateY(0deg) translateZ(25px);
+  }
+  span a:after{
+    color: #000;
+    transform: rotateX(90deg) translateZ(25px);
+  }
+  span a:hover{
+    transform: translateZ(-25px) rotateX(-90deg);
+    cursor: url(https://cur.cursors-4u.net/games/gam-14/gam1339.cur), auto;
+  }
+
+#footer {
+    padding: 64px 16px;
+    text-align: center;
+    height: 600px;
+    float: bottom;
+    position: relative;
+}
+
+#footer .footer-map .footer-map-title {
+    font-size: 40px;
+    position: absolute;
+    left: 280px;
+    top: 40px;
+}
+
+#footer .footer-map .footer-map-img {
+    border: 4px solid black;
+    width: 50%;
+    margin-top: 60px;
+}
+
+#footer .footer-sponsor .footer-sponsor-title {
+    position: absolute;
+    right: 230px;
+    top: 40px;
+    font-size: 40px;
+}
+
+#footer .footer-sponsor .footer-sponsor-img-fpt {
+    position: absolute;
+    width: 240px;
+    height: 100px;
+    right: 330px;
+    top: 140px;
+}
+
+#footer .footer-sponsor .footer-sponsor-img-riotgames {
+    position: absolute;
+    width: 240px;
+    height: 100px;
+    right: 50px;
+    top: 140px;
+}
+
+#footer .footer-stories .footer-stories-title {
+    position: absolute;
+    right: 110px;
+    bottom: 260px;
+    font-size: 35px;
+}
+
+#footer .footer-stories .footer-stories-item-1 {
+    position: absolute;
+    right: 420px;
+    bottom: -40px;
+}
+
+#footer .footer-stories .footer-stories-item-2 {
+    position: absolute;
+    right: 240px;
+    bottom: -40px;
+}
+
+#footer .footer-stories .footer-stories-item-3 {
+    position: absolute;
+    right: 60px;
+    bottom: -40px;
+}
+
+#footer .footer-stories .footer-stories-img {
+    width: 150px;
+    height: 240px;
+}
+
+#footer .footer-stories a:hover {
+    opacity: 0.9;
+    cursor: url(https://cur.cursors-4u.net/games/gam-14/gam1339.cur), auto;
+}
+
+.powered {
+    background-image: linear-gradient(to right, #c31432, #240b36);
+    margin-top: 90px;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    border-top: 3px solid black;
+}
+
+.powered .socials-list {
+    font-size: 24px;
+    position: absolute;
+    right: 47%;
+}
+
+.powered .socials-list a {
+    color: white;
+    text-decoration: none;    
+}
+
+.powered .socials-list a:hover {
+    color: #4267B2;
+    cursor: url(https://cur.cursors-4u.net/games/gam-14/gam1339.cur), auto;
+}
+
+.powered .copyright {
+    position: absolute;
+    left: 536px;
+    bottom: 5px;
+    color: white;
+}
+
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+
+
+
