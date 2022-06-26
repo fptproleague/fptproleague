@@ -4,7 +4,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;    
-    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=134125), auto;
 }
 
 .text-white {
@@ -53,7 +52,7 @@ html {
 }
 
 .logo-img:hover {
-    cursor: url(https://cur.cursors-4u.net/games/gam-14/gam1339.cur), auto;
+    cursor: pointer;
 }
 
 
@@ -73,7 +72,7 @@ html {
 #nav li:hover a {
     background-color: rgb(237, 85, 85);
     color: white;
-    cursor: url(https://cur.cursors-4u.net/games/gam-14/gam1339.cur), auto;
+    cursor: pointer;
 }
 
 #slider {
@@ -95,8 +94,7 @@ html {
 }
 
 #slider .text-title {
-   font-size: 60px;
-   
+   font-size: 60px;   
 }
 
 #slider .text-description {
@@ -232,7 +230,7 @@ span{
   }
   span a:hover{
     transform: translateZ(-25px) rotateX(-90deg);
-    cursor: url(https://cur.cursors-4u.net/games/gam-14/gam1339.cur), auto;
+    cursor: pointer;
   }
 
 #footer {
@@ -311,7 +309,7 @@ span{
 
 #footer .footer-stories a:hover {
     opacity: 0.9;
-    cursor: url(https://cur.cursors-4u.net/games/gam-14/gam1339.cur), auto;
+    cursor: pointer;
 }
 
 .powered {
@@ -336,7 +334,7 @@ span{
 
 .powered .socials-list a:hover {
     color: #4267B2;
-    cursor: url(https://cur.cursors-4u.net/games/gam-14/gam1339.cur), auto;
+    cursor: pointer;
 }
 
 .powered .copyright {
