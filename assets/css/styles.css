@@ -164,7 +164,7 @@ html {
 }
 
 .place-img:hover {
-    opacity: 0.75;
+    opacity: 1;
 }
 
 .place-body {
